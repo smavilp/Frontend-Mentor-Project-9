@@ -162,14 +162,16 @@ button{
     margin-top: 0.4rem;
     position: absolute;
     bottom: 0px;
+    opacity: 1;
+    transition: opacity .5s;
 }
 
 @media screen and (min-width:992px){
     .share-div{
         right: -67px;
-        bottom: 94px;
+        bottom: 95px;
         width: 15.5rem;
-        padding: 1rem 0;
+        padding: 1.05rem 0;
         border-radius: 10px 10px 10px 10px;
     }
     
@@ -196,8 +198,8 @@ button{
 @media screen and (min-width:992px){
     .share-div button{
         position: absolute;
-        left: 108px;
-        bottom: -65px;
+        left: 109px;
+        bottom: -67px;
     }
 }
 
@@ -233,9 +235,5 @@ footer a:hover{
 }
 
 .hidden{
-    display: none;
-}
-
-.share-btn{
-    display: inline-block;
+    opacity: 0;
 }
