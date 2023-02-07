@@ -1,8 +1,8 @@
-/* Imports */
+/* Imports
 @import url('https://fonts.googleapis.com/css2?family=Manrope:wght@500;700&display=swap');
 
 /* Variables */
-:root{
+/* :root{
 --VeryDarkGrayishBlue: hsl(217, 19%, 35%);
 --DesaturatedDarkBlue: hsl(214, 17%, 51%);
 --GrayishBlue: hsl(212, 23%, 69%);
@@ -10,16 +10,16 @@
 }
 
 /* Ressets */
-*{
+/* *{
     box-sizing: 0;
     margin: 0;
     padding: 0;
-}
+} */
 
 
 /* Styles */
 
-body{
+/* body{
     background-color: var(--LightGrayishBlue);
     min-height: 100vh;
     font-family: 'Manrope', sans-serif;
@@ -28,9 +28,9 @@ body{
     justify-content: center;
     align-items: center;
     gap: 1.5rem;
-}
+} */
 
-main{
+/* main{
     background-color: white;
     max-width: 20.438rem;
     display: flex;
@@ -236,4 +236,4 @@ footer a:hover{
 
 .hidden{
     opacity: 0;
-}
+} */
